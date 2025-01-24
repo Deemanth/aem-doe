@@ -14,8 +14,10 @@
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
+  margin-bottom: 10px;
   @media screen and (min-width: 300px) { 
     margin-right: 10px;
+    margin-bottom: 0;
   }
 }
 
