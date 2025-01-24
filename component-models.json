@@ -122,16 +122,24 @@
         "multi": false
       },
       {
-        "component": "text",
-        "name": "text",
+        "component": "richtext",
+        "name": "rte",
+        "value": "",
         "label": "Title for card",
         "valueType": "string"
       },
       {
-        "component": "richtext",
-        "name": "rte",
+        "component": "text",
+        "name": "text",
+        "label": "description",
         "value": "",
-        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "icon",
+        "value": "",
+        "label": "icon picker",
         "valueType": "string"
       }
     ]
