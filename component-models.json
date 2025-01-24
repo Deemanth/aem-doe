@@ -122,37 +122,10 @@
         "multi": false
       },
       {
-        "component": "number",
-        "valueType": "number",
-        "name": "number",
-        "label": "Number",
-        "value": 0
-      },
-      {
-        "component": "radio-group",
-        "label": "Radio Group",
-        "name": "radio",
-        "valueType": "string",
-        "options": [
-          { "name": "Option 1", "value": "option1" },
-          { "name": "Option 2", "value": "option2" }
-        ]
-      },
-      {
-        "component": "reference",
-        "label": "Reference",
-        "name": "reference",
+        "component": "text",
+        "name": "text",
+        "label": "Title for card",
         "valueType": "string"
-      },
-      {
-        "component": "select",
-        "label": "Select",
-        "name": "select",
-        "valueType": "string",
-        "options": [
-          { "name": "Option 1", "value": "option1" },
-          { "name": "Option 2", "value": "option2" }
-        ]
       },
       {
         "component": "richtext",
