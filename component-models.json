@@ -122,15 +122,41 @@
         "multi": false
       },
       {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
+        "component": "number",
+        "valueType": "number",
+        "name": "number",
+        "label": "Number",
+        "value": 0
+      },
+      {
+        "component": "radio-group",
+        "label": "Radio Group",
+        "name": "radio",
+        "valueType": "string",
+        "options": [
+          { "name": "Option 1", "value": "option1" },
+          { "name": "Option 2", "value": "option2" }
+        ]
+      },
+      {
+        "component": "reference",
+        "label": "Reference",
+        "name": "reference",
         "valueType": "string"
       },
       {
+        "component": "select",
+        "label": "Select",
+        "name": "select",
+        "valueType": "string",
+        "options": [
+          { "name": "Option 1", "value": "option1" },
+          { "name": "Option 2", "value": "option2" }
+        ]
+      },
+      {
         "component": "richtext",
-        "name": "deemanth-name",
+        "name": "text",
         "value": "",
         "label": "Text",
         "valueType": "string"
