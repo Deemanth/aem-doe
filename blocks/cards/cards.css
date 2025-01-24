@@ -20,6 +20,10 @@
   line-height: 0;
 }
 
+.cards .cards-card-image picture {
+  border-bottom: 3px solid red;
+}
+
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
