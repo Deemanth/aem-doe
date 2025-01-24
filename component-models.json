@@ -127,6 +127,13 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "deemanth-name",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   },
