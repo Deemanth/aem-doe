@@ -1,0 +1,43 @@
+.header2 {
+    @media screen and (min-width: 300px) { 
+        display: flex;
+        align-items: flex-start; /* Aligns items to the top */
+    }
+  }
+
+  .header2 .left {
+    display: flex;
+    /* Stacks element 1 and element 2 vertically */
+    flex-direction: column;
+    @media screen and (min-width: 300px) { 
+        padding-right: 150px;
+    }
+
+  }
+
+  .header2 .right {
+    align-self: flex-start; /* Ensures element 3 aligns to the top right */
+    border-left: 1px solid red;
+    padding-left: 10px;
+  }
+  .header2 .right ul{ 
+    padding: 0;
+    margin: 0;
+  }
+
+  .header2 .right ul li{ 
+    list-style: none;
+  }
+
+  .header2 .right ul li:first-child { 
+    border: none;
+    text-decoration: none;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .header2 .right ul li a{ 
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: blue;
+  }
