@@ -248,7 +248,7 @@
          "name": "headerTitle",
          "value": "",
          "label": "headerTitle",
-         "valueType": "headerTitle"
+         "valueType": "string"
        },
        {
          "component": "text",
@@ -262,7 +262,7 @@
         "name": "headerLinks",
         "value": "headerLinks",
         "label": "headerLinks",
-        "valueType": "headerLinks"
+        "valueType": "string"
       }
      ]
   }
