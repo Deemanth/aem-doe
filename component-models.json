@@ -239,5 +239,31 @@
         ]
       }
      ]
+  },
+  {
+    "id": "header2",
+    "fields": [
+       {
+         "component": "richtext",
+         "name": "headerTitle",
+         "value": "",
+         "label": "headerTitle",
+         "valueType": "headerTitle"
+       },
+       {
+         "component": "text",
+         "valueType": "string",
+         "name": "headerDescription",
+         "label": "headerDescription",
+         "value": "headerDescription"
+       },
+       {
+        "component": "richtext",
+        "name": "headerLinks",
+        "value": "headerLinks",
+        "label": "headerLinks",
+        "valueType": "headerLinks"
+      }
+     ]
   }
 ]
