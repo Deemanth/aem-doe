@@ -312,5 +312,12 @@
         "description": "search for main content"
       }
      ]
+  },
+  {
+    "id": "embed",
+    "fields": [
+      {
+      }
+     ]
   }
 ]
