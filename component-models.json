@@ -299,5 +299,18 @@
         "valueType": "string"
       }
      ]
+  },
+  {
+    "id": "search",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "search",
+        "value": "",
+        "label": "search box",
+        "description": "search for main content"
+      }
+     ]
   }
 ]
