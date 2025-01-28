@@ -10,12 +10,12 @@ export default function decorate(block) {
     button.setAttribute('type', 'submit');
     button.innerHTML = block.innerHTML;
 
-    // Create the <span> element for the icon
-    const span = document.createElement('span');
-    span.className = 'icon icon-search';
+    // // Create the <span> element for the icon
+    // const span = document.createElement('span');
+    // span.className = 'icon icon-search';
 
-    // Append the <span> to the <button>
-    button.appendChild(span);
+    // // Append the <span> to the <button>
+    // button.appendChild(span);
 
     // Create the <input> element
     const input = document.createElement('input');
@@ -24,7 +24,7 @@ export default function decorate(block) {
     input.setAttribute('role', 'searchbox');
     input.setAttribute('id', 'secondary-search');
     input.setAttribute('value', '');
-    input.setAttribute('placeholder', 'placeholder');
+    input.setAttribute('placeholder', 'Search here');
 
     // Append the <button> and <input> to the <form>
     form.appendChild(input);

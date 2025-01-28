@@ -1,4 +1,12 @@
 .search-wrapper .search button{
     padding: 5px;
     margin: 5px;
+    background: none;
+    color: blue;
+}
+
+.search-wrapper .search input {
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
 }
