@@ -1,3 +1,5 @@
+import { decorateIcons } from '../../scripts/aem.js';
+
 export default function decorate(block) {
 
     // Create a <form> element
@@ -8,14 +10,15 @@ export default function decorate(block) {
     const button = document.createElement('button');
     button.setAttribute('title', 'Search Icon');
     button.setAttribute('type', 'submit');
-    button.innerHTML = block.innerHTML;
+    button.innerHTML = block.getElementsByTagName('p')[0].innerHTML;
 
-    // // Create the <span> element for the icon
-    // const span = document.createElement('span');
-    // span.className = 'icon icon-search';
+    // Create the <span> element for the icon
+    const span = document.createElement('span');
+    span.className = 'icon icon-search';
 
-    // // Append the <span> to the <button>
-    // button.appendChild(span);
+    // Append the <span> to the <button>
+    button.appendChild(span);
+    decorateIcons(button);
 
     // Create the <input> element
     const input = document.createElement('input');
@@ -32,6 +35,8 @@ export default function decorate(block) {
 
     block.innerHTML = '';
     block.appendChild(form);
+
+   
 
 
     // Handle the form's submit event
