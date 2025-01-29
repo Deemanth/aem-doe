@@ -163,10 +163,10 @@
       },
       {
         "component": "select",
-        "name": "borderClass",
+        "name": "border",
         "value": "",
-        "label": "border class",
-        "description": "Add border to columns",
+        "label": "select border",
+        "description": "",
         "valueType": "string",
         "options": [
           {
@@ -236,7 +236,7 @@
        },
       {
         "component": "select",
-        "name": "customClass",
+        "name": "classes",
         "value": "",
         "label": "Background Color",
         "description": "The marquee background color",
