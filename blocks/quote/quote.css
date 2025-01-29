@@ -1,5 +1,10 @@
-.block.quote {
-    background-color: #ccc;
+:root{
+    --quote-background-color: var(--background-color);
+    --quote-background-color : var(#444);
+
+
+}.block.quote {
+    background-color: var(--quote-background-color);
     padding: 0 0 24px;
     display: flex;
     flex-direction: column;

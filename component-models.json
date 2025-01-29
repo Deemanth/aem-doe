@@ -325,5 +325,18 @@
         "description": "facebook url"
       }
      ]
+  },
+  {
+    "id": "table",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "table",
+        "value": "",
+        "label": "table",
+        "description": "table"
+      }
+     ]
   }
 ]
