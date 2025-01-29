@@ -160,6 +160,24 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "borderClass",
+        "value": "",
+        "label": "border class",
+        "description": "Add border to columns",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "table border",
+            "value": "table-border"
+          },
+          {
+            "name": "Row border",
+            "value": "row-border"
+          }
+        ]
       }
     ]
   },
