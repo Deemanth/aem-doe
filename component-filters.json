@@ -20,7 +20,8 @@
       "header2",
       "search",
       "embed",
-      "table"
+      "table",
+      "wysiwyg-table"
     ]
   },
   {
