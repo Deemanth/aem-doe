@@ -30,7 +30,7 @@
 }
 
 .block.quote.bg-blue{
-    background: blue;
+    background: var(--nsw-palette-off-white);
 }
 
 .block.quote.bg-red{
